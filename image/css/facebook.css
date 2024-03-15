@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+}
+
+
+
+.h1{
+text-align: center;
+font-size: 50px;
+color: blue;
+background-color: bisque;
+}
+.icon img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+   
+
+}
+body{
+    border:solid 1px;
+    
+}
+.form{
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px;
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    box-shadow: 5px 5px 7px 7px rgb(17, 17, 16);
+    background-color: darkgray;
+
+
+}
+#fname{
+    margin-left: 30px;
+    
+}
+#lname{
+    margin-left: 32px;
+}
+#num{
+    margin-left: 4.5px;
+}
+#email{
+    margin-left: 59px;
+}
+.sex{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+#create{
+    font-size: 40px;
+    background-color: gray;
+    border-radius: 20px;
+
+} 
+.login{
+    height:30px;
+    width:100px;
+    font-style: bold;
+    font-size: 20px;
+    background-color: rgb(26, 226, 199);
+    border-radius: 10PX;
+    margin-right: 100px;
+    
+    
+}
+#footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: darkseagreen;
+    margin-top: 30px;
+    height: 40px;
+}
+#date{
+    margin-top: 20px;
+}
+#sex1{
+    margin-left: -6px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    body {
+        text-align: center;
+        background-color: green;
+    }
+    .header {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+   
+}
+ 
+@media screen and (max-width:500px) {
+    body {
+        text-align: center;
+        background-color: blue;
+    }
+    #password{
+        width: 200px;
+        height: 30px;
+        border: solid 1px;
+        border-radius: 10px; 
+        margin-top: 15px;
+    }
+    .h1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(8, 231, 127);
+        background-color: rgb(226, 17, 17);
+        }
+        .form{
+            width: 400px;
+            height: 500px;
+            box-shadow: 10px;
+            border: solid 1px;
+            margin-left: 50px;
+            margin-right: 50px;
+            display: block;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 10px gray;
+        
+        
+        }
+        #create{
+            font-size: 30px;
+            background-color: rgb(199, 12, 12);
+            margin-right: 50px;
+            margin-left: 50px;
+            
+            
+        
+        } 
+        #footer{
+            text-align: center;
+            font-size: 15px;
+            background-color: darkseagreen;
+            margin-top: 30px;
+            height: 40px;
+        }
+     
+       
+}
